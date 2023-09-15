@@ -2,3 +2,130 @@
   margin: 0;
   padding: 0;
 }
+
+body {
+  font-family: Roboto;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  max-width: 600px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav {
+  width: 100%;
+  padding: 5px 10px;
+  background-color: #cccccc;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.btn {
+  border: black solid 2px;
+  box-shadow: 3px 3px 0 black;
+  transition: all 300ms;
+}
+
+.log {
+  width: 60px;
+  padding: 2px 0;
+  background-color: #2b78e4;
+  color: white;
+  transition: all 300ms;
+}
+
+.log:hover {
+  background-color: #08397d;
+}
+
+.cuerpo {
+  width: 100%;
+  display: flex;
+  gap: 15px;
+}
+
+.izquierda {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+}
+
+.definicion {
+  width: 100%;
+  border: black solid 2px;
+  margin: 20px 0 0;
+  padding: 15px 0;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  box-sizing: border-box;
+}
+
+.enunciado {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.termino {
+  flex: 2;
+  padding: 5px;
+}
+
+.subtitulo, .plural, .like {
+  margin: 3px 0;
+}
+
+.like {
+  background-color: #ffd966;
+  margin: 10px 0 0;
+  padding: 3px 15px;
+}
+
+.like:hover {
+  background-color: #7b682d;
+  color: white;
+}
+
+.derecha {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0;
+  box-sizing: border-box;
+}
+
+.agregar {
+  width: 83%;
+  border: black solid 2px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+}
+
+.parrafo-add {
+  font-size: 1.4em;
+}
+
+.add {
+  width: 180px;
+  background-color: #93c47d;
+  margin: 20px 0 0;
+  padding: 3px 0;
+}
+
+.add:hover {
+  background-color: #465f3a;
+  color: white;
+}

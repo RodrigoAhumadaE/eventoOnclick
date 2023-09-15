@@ -1,13 +1,52 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./css/styles.css">
-  <title>Dojonary</title>
-</head>
-<body>
-  
-  <script src="./js/index.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <title>Dojonary</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="nav">
+        <h1 class="titulo">Dojonary</h1>
+        <input class="buscar" type="text" placeholder="Search">
+        <button id="log" class="btn log" onclick="logBtn(this)">Login</button>
+      </div>
+      <div class="cuerpo">
+        <div class="izquierda">
+          <div class="definicion">
+            <div class="enunciado">
+              <h2 class="subtitulo">ninja</h2>
+              <h4><em>noun</em></h4>
+              <h6 class="plural">Plural: <em>ninjas</em></h6>
+              <button class="btn like" onclick="likeBtn()">13 likes</button>
+            </div>
+            <div class="termino">
+              <p>A practitioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p>
+            </div>
+          </div>
+          <div class="definicion">
+            <div class="enunciado">
+              <h2 class="subtitulo">ninja</h2>
+              <h4><em>noun</em></h4>
+              <h6 class="plural">Plural: <em>ninjas</em></h6>
+              <button class="btn like" onclick="likeBtn()">37 likes</button>
+            </div>
+            <div class="termino">
+              <p>A <a href="#">Programmer</a> who breaks down problems whit <a href="#">zen</a>-like focus</p>
+            </div>
+          </div>
+        </div>
+        <div class="derecha">
+          <div class="agregar">
+            <p class="parrafo-add">Dojonary is defined by <strong>YOU</strong></p>
+            <button id="add" class="btn add" onclick="removerBoton(this)">Add Definition</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./js/index.js"></script>
+  </body>
 </html>
